@@ -1,62 +1,53 @@
 # JAVA-STUDENT-MANAGEMENT-PROJECT
 # Student Management System (Console-Based Java Project)
 
-##  Introduction
-This project is a simple **Student Management System** built using **core Java**.  
-It runs completely in the console and lets you manage student records such as name, age, and course.  
-I created this project to practice Java fundamentals like file handling, classes & objects, and modular design.
 
-The system saves student details in a CSV file and loads them every time the program runs, so your data stays safe even after closing the program.
+## Project Title
+Student Management System (SMS)
 
----
+## Overview of the Project
+The Student Management System is a console-based Java application designed to help users manage basic student information. The project demonstrates core Java concepts including object-oriented programming, file handling, layered architecture, and input validation. Data is saved persistently using a CSV file so that student records are retained even after the program is closed. The system provides basic CRUD operations along with a simple reporting feature.
 
-##  What You Can Do With This Program
-Here’s what the system  supports:
+## Features
+1. Add Student  
+   Allows the user to enter student details including name, age, and course.
 
-###  Add a New Student  
-Enter their name, age, and course.
+2. View All Students  
+   Displays all stored student records.
 
-###  View All Students  
-Shows a clean list of all saved student records.
+3. Update Student  
+   Allows modification of an existing student’s information using their unique ID.
 
-###  Update Details  
-Edit any student’s information using their ID.
+4. Delete Student  
+   Removes a specific student record.
 
-###  Delete a Student  
-Remove any record that you no longer need.
+5. Generate Report  
+   Shows the total number of students, the average age, and the number of students enrolled in each course.
 
-###  View Report  
-Shows:
-- Total number of students  
-- Average age  
-- How many students are in each course  
+6. File Persistence  
+   Data is stored in a CSV file located in the "data" folder. The file is created automatically at runtime if it does not exist.
 
-It’s small, simple, and works neatly in the console.
+## Technologies / Tools Used
+- Java (version 11 or above)
+- IntelliJ IDEA (recommended IDE)
+- CSV file storage
+- Core Java libraries only, no external frameworks
 
----
+## Steps to Install and Run the Project
 
-##  📁 Project Structure (Folders + Files)::: 
-  src/
-└── com/example/sms/
-├── App.java
-├── model/
-│ └── Student.java
-├── storage/
-│ └── FileStorage.java
-├── dao/
-│ └── StudentDAO.java
-├── service/
-│ └── StudentService.java
-├── ui/
-│ └── ConsoleUI.java
-└── util/
-├── Validator.java
-└── ReportGenerator.java
-data/
-└── students.csv (created automatically).  
+### Step 1: Download or Clone the Project
+You can download the project as a ZIP file or clone it using the  command.  
 
-Each folder has a specific purpose which helped me keep the code organized.
+## Instructions for Testing
+1. Run the program to display the main menu.  
+2. Test each option individually:
+   - Use option 1 to add students and confirm that the details appear correctly under option 2.
+   - Use option 3 to update existing records and verify the changes.
+   - Use option 4 to delete records and confirm that they no longer appear in the list.
+   - Use option 5 to generate a report and check that the numbers match the stored data.
+3. Check the file "data/students.csv" to confirm that student data is being saved properly.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
