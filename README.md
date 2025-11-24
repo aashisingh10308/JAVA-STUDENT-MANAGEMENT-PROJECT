@@ -13,19 +13,19 @@ The system saves student details in a CSV file and loads them every time the pro
 ##  What You Can Do With This Program
 Here’s what the system  supports:
 
-### ✔ Add a New Student  
+###  Add a New Student  
 Enter their name, age, and course.
 
-### ✔ View All Students  
+###  View All Students  
 Shows a clean list of all saved student records.
 
-### ✔ Update Details  
+###  Update Details  
 Edit any student’s information using their ID.
 
-### ✔ Delete a Student  
+###  Delete a Student  
 Remove any record that you no longer need.
 
-### ✔ View Report  
+###  View Report  
 Shows:
 - Total number of students  
 - Average age  
