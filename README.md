@@ -35,7 +35,7 @@ It’s small, simple, and works neatly in the console.
 
 ---
 
-##  Project Structure (Folders + Files)::: 
+##  📁 Project Structure (Folders + Files)::: 
   src/
 └── com/example/sms/
 ├── App.java
