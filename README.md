@@ -55,6 +55,7 @@ It’s small, simple, and works neatly in the console.
 
 data/
 └── students.csv (created automatically)
+---
 Each folder has a specific purpose which helped me keep the code organized.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
