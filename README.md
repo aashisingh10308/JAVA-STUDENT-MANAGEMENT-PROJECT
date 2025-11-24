@@ -52,10 +52,9 @@ It’s small, simple, and works neatly in the console.
 └── util/
 ├── Validator.java
 └── ReportGenerator.java
-
 data/
-└── students.csv (created automatically)
----
+└── students.csv (created automatically).  
+
 Each folder has a specific purpose which helped me keep the code organized.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
